@@ -6,7 +6,7 @@ eeglab
 
 % load the data
 Fs=2000;
-EEG = pop_importdata('dataformat','matlab','nbchan',0,'data','restEEG_101_102.mat','srate',Fs,'pnts',0,'xmin',0);
+EEG = pop_importdata('dataformat','matlab','nbchan',0,'data','mp_syndata.mat','srate',Fs,'pnts',0,'xmin',0);
 
 [ALLEEG EEG CURRENTSET] = pop_newset(ALLEEG, EEG, 0,'gui','off'); 
 % EEG.data=syn_data2;
