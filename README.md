@@ -3,10 +3,10 @@ Computes PAC analysis over varying time windows, having been mainly used on rest
 NOTE: EEGLAB must be installed and added to the folder you are working with, the version you are using will change things for the script, this one was built around eeglab2019_0.
 NOTE: The MP plugin must also be installed. All of the encessary code for the plugin is found on this GitHub page: https://github.com/karolaug/mp-eeglab-plugin
 
-Key Functions/Scripts:
-MP_dynamicPAC.m
-MP_dynamic_PAC_Animated.m
-extract_and_analyze_eeg_time_resolved.m
+Key Functions/Scripts: <br/>
+MP_dynamicPAC.m <br/>
+MP_dynamic_PAC_Animated.m <br/> 
+extract_and_analyze_eeg_time_resolved.m <br/>
 
 MP_dynamicPAC.m: This script uses matching pursuit to create clusters for the input dataset, which are then used to compute phase-amplitude coupling. The inputs for this script are all at the beginning, with necessary specifications being one channel of data over a certain time in a vector format (.mat file), and the sampling frequency of the data. This will display three commodulograms, one for low frequencies over time, one for high frequencies over time, and then one comparing which high and low frequencies coupled.
 
