@@ -1,6 +1,7 @@
 # TF_PAC
 Computes PAC analysis over varying time windows, having been mainly used on resting-state EEG data
 NOTE: EEGLAB must be installed and added to the folder you are working with, the version you are using will change things for the script, this one was built around eeglab2019_0.
+NOTE: The MP plugin must also be installed. All of the encessary code for the plugin is found on this GitHub page: https://github.com/karolaug/mp-eeglab-plugin
 
 Key Functions/Scripts:
 MP_dynamicPAC.m
